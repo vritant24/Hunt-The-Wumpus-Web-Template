@@ -2,11 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Open in Browser",
-      "type": "chrome",
+      "name": "Start Dev Server",
+      "type": "node",
       "request": "launch",
-      "url": "http://localhost:5173",
-      "webRoot": "${workspaceFolder}"
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
     }
   ]
 }
