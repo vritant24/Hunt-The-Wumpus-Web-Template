@@ -1,0 +1,11 @@
+import type ISampleObject from '../interfaces/ISampleObject';
+
+export default class SampleObject implements ISampleObject {
+    add(num1: number, num2: number) : number {
+        return num1 + num2;
+    }
+
+    subtract(num1: number, num2: number) : number {
+        return num1 - num2;
+    }
+}
