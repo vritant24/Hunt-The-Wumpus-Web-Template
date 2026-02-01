@@ -7,12 +7,14 @@
   "scripts": {
     "dev": "vite --port 5173 --host",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.33",
     "typescript": "~5.9.3",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "vitest": "^4.0.18"
   },
   "dependencies": {
     "jquery": "^4.0.0"
